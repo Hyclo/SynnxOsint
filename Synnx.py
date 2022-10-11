@@ -13,7 +13,8 @@ import sys
 #IMPORTS END
 
 for arg in sys.argv:
-    if arg == "baum":
-        print("baum")
-    else:
-        print("tree")
+    if arg != __file__:
+        if arg == "baum":
+            print("baum")
+        else:
+            print("tree")
