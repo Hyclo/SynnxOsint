@@ -6,11 +6,10 @@
 # Version: 1.0.0
 
 #IMPORTS START:
-
+import sys
 #FILE IMPORTS START:
 
 #FILE IMPORTS END
 #IMPORTS END
 
-print("hello world!")
-
+print("hello world! " + sys.argv)
