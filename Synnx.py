@@ -14,7 +14,7 @@ import sys
 
 for arg in sys.argv:
     if arg != "Synnx.py":
-        if arg == "-h":
+        if arg == "--h":
             help()
         elif arg == "-t":
             print("tree")
@@ -22,5 +22,5 @@ for arg in sys.argv:
 # Help command start          
 def help():
     print("This is the help section of the SynnxOsint:")
-    print("-h opens this help section")
+    print("--h opens this help section")
 # Help command end
