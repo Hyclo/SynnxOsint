@@ -12,4 +12,4 @@ import sys
 #FILE IMPORTS END
 #IMPORTS END
 
-print("hello world! " + str(sys.argv[0]))
+print("hello world! " + str(sys.argv[1]))
