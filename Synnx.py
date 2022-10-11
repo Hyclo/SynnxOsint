@@ -13,7 +13,7 @@ import sys
 #IMPORTS END
 
 for arg in sys.argv:
-    if arg != __file__:
+    if arg != "Synnx.py":
         if arg == "baum":
             print("baum")
         else:
