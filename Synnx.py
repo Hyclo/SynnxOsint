@@ -12,4 +12,8 @@ import sys
 #FILE IMPORTS END
 #IMPORTS END
 
-print("hello world! " + str(sys.argv[1]))
+for arg in sys.argv:
+    if arg == "baum":
+        print("baum")
+    else:
+        print("tree")
